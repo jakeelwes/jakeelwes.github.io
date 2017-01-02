@@ -1,0 +1,178 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+	================================================== -->
+	<meta charset="utf-8">
+	<title>Jake Elwes - noisy taxonomy</title>
+	<meta name="description" content=".">
+	<meta name="author" content="Jake Elwes">
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS Files
+	* cssreset-min.css 			- CSS reset
+	* typegrid.css				- Responsive grid system
+	* style.css					- Main CSS file
+
+	Original LESS Stylesheet
+	<link rel="stylesheet/less" type="text/css" href="css/style.less" />
+	================================================== -->
+	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.8.0/build/cssreset/cssreset-min.css">
+	<link rel="stylesheet" type="text/css" href="css/typegrid.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="includes/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+
+
+
+
+	<!--[if lt IE 8]>
+		<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"></script>
+	<![endif]-->
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300' rel='stylesheet' type='text/css'>
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+</head>
+
+<body>
+
+
+	<nav id="navMenu"></nav>
+
+
+	<!-- Work - Single Page (Left Sidebar)
+	================================================== -->
+	<section id="works" class="page single">
+		<div class="container">
+
+			<div class="desktop-3 tablet-12 nested columns">
+
+				<div class="sidebar sticky">
+
+					<div class="desktop-3 tablet-12 columns">
+
+						<div class="box-info">
+							<h3 class="border-top">noisy taxonomy</h3>
+							<p class="project-desc">2015</p>
+
+							<p>The various forms of elements from different places expose the essence or identity of a subject through eliminating all non-essential forms, features, or concepts. </p>
+						</div><!-- // .box-info -->
+
+					</div><!-- // .desktop-3 -->
+
+					<div class="desktop-3 tablet-6 mobile-half columns">
+
+						<div class="box-info">
+							<h4 class="border-top">Materials</h4>
+							<p>
+								Relief print
+							</p>
+						</div><!-- // .box-info -->
+
+					</div><!-- // .desktop-3 -->
+
+					<div class="clear"></div>
+
+				</div><!-- // .sticky -->
+
+			</div><!-- // .desktop-3 .nested -->
+
+			<div id="pics" class="desktop-9 tablet-12 columns">
+
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+				<iframe id="vid" src="https://player.vimeo.com/video/197343359?color=ffffff&title=0&byline=0&portrait=0" width="100%" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				<br></br>
+
+				<iframe id="vid1" src="https://player.vimeo.com/video/197343395?color=ffffff&title=0&byline=0&portrait=0" width="100%" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				<br></br>
+				<iframe id="vid2" src="https://player.vimeo.com/video/197343658?color=ffffff&title=0&byline=0&portrait=0" width="100%" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				<br></br>
+				<iframe id="vid3" src="https://player.vimeo.com/video/197343750?color=ffffff&title=0&byline=0&portrait=0" width="100%" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				<br></br>
+
+				<script>
+					function resizeDivs() {
+						$('#vid').css("height", $('#vid').width()/1.7777);
+						$('#vid1').css("height", $('#vid').width()/1.7777);
+						$('#vid2').css("height", $('#vid').width()/1.7777);
+						$('#vid3').css("height", $('#vid').width()/1.7777);
+					}
+					$(resizeDivs);
+					$(window).resize(resizeDivs);
+				</script>
+
+				<script>
+				// ls -m | sed -e 's/, /", "/g'
+
+				// var files = [""]
+				var files = ["All 7-small.jpg", "C Major 39sec above.jpg", "Cnoisy taxonomy Minor 14sec above.jpg", "ContactSheet-001-small.jpg", "Eb Major 37sec above.jpg", "Fnoisy taxonomy Minor 18sec above.jpg", "IMG_8596.jpg", "Screen Shot 2016-01-18 at 12.17.00.jpg", "Screen Shot 2016-04-28 at 11.08.00.jpg", "sound sculpts1.jpg", "spectro.jpg", "spectro0024.jpg", "spectro0043.jpg", "spectro0062.jpg", "z_All cross sections.jpg"]
+
+				for (file in files) {
+					var src = 'images/project-musicalTaxonomy/' + files[file]
+					$("#pics").append('<img src="'+ src +'" alt=""/>')
+					// $('body').prepend('<img id="gif2" src="'+ src +'" width="100%" height="100%"/>')
+				}
+
+				</script>
+
+			</div><!-- // .desktop-9 -->
+
+			<div class="clear"></div>
+
+		</div><!-- // .container -->
+	</section><!-- // section -->
+
+	<nav id="footer"></nav>
+
+	<script src="header.js"></script>
+
+
+	<!-- JS
+	================================================== -->
+	<!--
+		Flexslider 2.1 has known issues of manualControls setting with jQuery 1.9~
+		Use jQuery 1.8 until Flexslider 2.2 stable version is released
+	-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+	<script src="js/jQuery.BlackAndWhite.min.js"></script>
+	<script src="js/modernizr.js"></script>
+	<script src="js/less-1.4.0.min.js"></script>
+	<script src="js/jquery.typeMenu.js"></script>
+	<script src="js/jquery.typeSticky.js"></script>
+
+
+
+
+
+
+
+
+
+
+	<script src="js/jquery.custom.js"></script>
+
+
+<!-- End Document
+================================================== -->
+</body>
+</html>

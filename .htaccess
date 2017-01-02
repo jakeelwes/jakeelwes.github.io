@@ -1,0 +1,3 @@
+<Directory /images>
+   Options +Indexes
+</Directory>
