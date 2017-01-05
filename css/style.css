@@ -587,7 +587,7 @@ b, strong { font-weight: bold; }
 			3.2 Header
 	---------------------------------------------------*/
 
-	#header .logo-wrap { padding: 50px 0 50px 0; }
+	#header .logo-wrap { padding: 20px 0 0px 0; }
 
 	#header h1 {
 		font-size: 24px;
@@ -1395,6 +1395,46 @@ b, strong { font-weight: bold; }
 		}
 
 
+		/*---------------------------------------------------
+				3.9 Header2
+		---------------------------------------------------*/
+
+		#header2 {
+			font-size: 13px;
+			line-height: 24px;
+			padding: 0px 0 30px 0;
+		}
+
+			#header2 p { margin-top: 30px; }
+
+				#header2 p a { color: #b54646; }
+
+			#header2 ul#social li {
+				display: inline-block;
+				float: left;
+			}
+
+				#header2 ul#social li a {
+					display: block;
+					padding: 30px 30px 30px 0;
+				}
+
+			@media screen and (max-width: 767px) {
+				#header2 ul#social {
+					margin-top: 30px;
+				}
+				#header2 ul#social li {
+					display: block;
+					float: none;
+				}
+
+					#header2 ul#social li a {
+						display: block;
+						padding: 20px 0;
+						border-top: 1px solid #eee;
+					}
+			}
+
 
 
 	/*---------------------------------------------------
@@ -1404,7 +1444,7 @@ b, strong { font-weight: bold; }
 	#footer {
 		font-size: 13px;
 		line-height: 24px;
-		padding: 30px 0;
+		padding: 0px 0 30px 0;
 	}
 
 		#footer p { margin-top: 30px; }
@@ -1418,7 +1458,7 @@ b, strong { font-weight: bold; }
 
 			#footer ul#social li a {
 				display: block;
-				padding: 30px 40px 30px 0;
+				padding: 30px 30px 30px 0;
 			}
 
 		@media screen and (max-width: 767px) {
