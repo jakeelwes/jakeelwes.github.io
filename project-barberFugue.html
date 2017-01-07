@@ -69,10 +69,11 @@
 					<div class="desktop-3 tablet-12 columns">
 
 						<div class="box-info">
-							<h3 class="border-top">#</h3>
-							<p class="project-desc">2012</p>
+							<h3 class="border-top">Barber Fugue</h3>
+							<p class="project-desc">3D Animation - Chicago 2014</p>
 
-							<p>TextTextText</p>
+							<p>Virtual forms visualised as complex wireframes are overlaid, transforming them from ordered to chaotic structures. The soundtrack - Samuel Barber’s Fugue - has been cut up and fragmented.
+</p>
 						</div><!-- // .box-info -->
 
 					</div><!-- // .desktop-3 -->
@@ -84,7 +85,8 @@
 						<div class="box-info">
 							<h4 class="border-top">Materials</h4>
 							<p>
-								text
+								Software: Maya + After Effects <br><br>
+HD Video (4 minutes)
 							</p>
 						</div><!-- // .box-info -->
 
@@ -100,8 +102,24 @@
 
 			<div class="desktop-9 pull-3 tablet-12 tablet-pull-0 columns">
 
-				<img src="images/project-#/" alt="" />
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
+				<iframe id="vid2" src="https://player.vimeo.com/video/198347274?color=ffffff&title=0&byline=0&portrait=0" width="100%" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				<br></br>
+
+				<script>
+					function resizeDivs() {
+						$('#vid2').css("height", $('#vid').width()/1.7777);
+
+					}
+					$(resizeDivs);
+					$(window).resize(resizeDivs);
+				</script>
+
+				<video controls autoplay loop  style="width: 100%;">
+				  <source src="images/project-barberFugue/wire.mp4" type="video/mp4">
+				  Your browser does not support the video tag.
+				</video>
 			</div><!-- // .desktop-9 -->
 
 			<div class="clear"></div>
