@@ -321,11 +321,11 @@ b, strong { font-weight: bold; }
 	.page p.page-desc {
 		color: #222;
 		font-family: 'Roboto Slab', Georgia, serif;
-		font-size: 34px;
-		line-height: 60px;
+		font-size: 22px;
+		line-height: 36px;
 		font-weight: 300;
-		margin-top: 30px;
-		margin-bottom: 50px;
+		margin-top: 20px;
+		margin-bottom: 30px;
 	}
 
 		@media screen and (max-width: 767px) {
