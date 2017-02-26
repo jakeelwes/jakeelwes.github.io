@@ -325,8 +325,8 @@ b, strong { font-weight: bold; }
 
 	.page p.page-desc {
 		color: #222;
-		font-family: 'Roboto Slab', Georgia, serif;
-		font-size: 22px;
+		/*font-family: 'Roboto Slab', Georgia, serif;*/
+		font-size: 21px;
 		line-height: 36px;
 		font-weight: 300;
 		margin-top: 20px;
@@ -750,7 +750,7 @@ b, strong { font-weight: bold; }
 		#works a.permalink:hover h3 { color: #111; }
 
 	#works .item span.category {
-		color: #ccc;
+		color: #666;
 		display: block;
 		font-size: 12px;
 		line-height: 18px;
