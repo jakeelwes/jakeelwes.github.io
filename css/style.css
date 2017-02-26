@@ -31,12 +31,17 @@ colors 7e0a5c (deep earth red) 22eedd (original flores blue)
 	1. Body
 --------------------------------------------------------------------------*/
 
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
 
 body {
 	color: #111;
-	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 14px;
+	font-family: 'Cutive Mono', monospace;
+	font-size: 15px;
 	line-height: 28px;
+	letter-spacing: .04em;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 1.8em;
 	-webkit-font-smoothing: antialiased;
 	/* Fix for webkit rendering */
 	-webkit-text-size-adjust: 100%;
@@ -844,8 +849,8 @@ b, strong { font-weight: bold; }
 
 		#works.single .box-info {
 			margin-bottom: 40px;
-			font-size: 14px;
-			line-height: 25px;
+			font-size: 15px;
+			line-height: 1.8em;
 		}
 
 			#works.single .box-info p.project-desc {
