@@ -81,6 +81,12 @@ a:visited {
 	outline: 0;
 }
 
+a:visited#show {
+	color: #992266;
+	text-decoration: none;
+	outline: 0;
+}
+
 a:hover,
 a:focus { color: #b54646; }
 p a,

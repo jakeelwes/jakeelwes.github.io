@@ -9,9 +9,9 @@
 	<!-- Basic Page Needs
 	================================================== -->
 	<meta charset="utf-8">
-	<title>Jake Elwes - Digital Whispers</title>
+	<title>Jake Elwes - Iris0x0a2e-Retina</title>
 	<meta name="description" content=".">
-	<meta name="author" content="">
+	<meta name="author" content="Jake Elwes">
 
 	<!-- Mobile Specific Metas
 	================================================== -->
@@ -80,14 +80,13 @@
 					<div class="desktop-3 tablet-12 columns">
 
 						<div class="box-info">
-							<h3 class="border-top">Digital Whispers
-</h3>
-							<p class="project-desc">Sound &amp; Twitter API - 2016
+							<h3 class="border-top">Closed Loop.</h3>
+							<p class="project-desc">Two Live Neural Networks - 2017
 </p>
-<p>
-Tweets in a 2 mile radius of the pieces’ installation are whispered by the computer as a live performance.
 
-</p>					</div><!-- // .box-info -->
+							<p>Two artificial intelligence models have an active conversation reacting to each other in a constant feedback loop - one communicating with images, the other with words.
+</p>
+						</div><!-- // .box-info -->
 
 					</div><!-- // .desktop-3 -->
 
@@ -96,11 +95,14 @@ Tweets in a 2 mile radius of the pieces’ installation are whispered by the com
 						<div class="box-info">
 							<h4 class="border-top">Materials</h4>
 							<p>
-								Custom Javascript program. <br><br>
+								Two back-projected suspended screens.<br>
+Two artificial intelligence models: <br>
+1. A language captioning neural network writing what it sees in the images generate<br>
+2. A generative neural network generating images responding to the words generated<br>
+Two datasets to train the A.I. models (unsupervised):<br>
+1. Visual Genome dataset of 4.1 million captioned images to train a language generator network<br>
+2. Imagenet dataset of 14.2 million photographs to train the image generator network<br>
 
-Twitter API. <br><br>
-
-Text to speech library.
 							</p>
 						</div><!-- // .box-info -->
 
@@ -115,27 +117,24 @@ Text to speech library.
 			<div class="clear show-under-tablet"></div>
 <div class="desktop-9 pull-3 tablet-12 tablet-pull-0 columns">
 
-				<video controls autoplay loop  style="width: 100%;">
-				  <source src="images/project-digitalWhisper/whisperTweets2.mov" type="video/mp4">
-				  Your browser does not support the video tag.
-				</video><br><br>
-				<img src="images/project-digitalWhisper/Digital Whispers2.jpg" alt="Jake Elwes digital artist" />
-				<img src="images/project-digitalWhisper/Digital Whispers4.jpg"  alt="Jake Elwes digital artist" />
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
+				<iframe id="vid" src="https://player.vimeo.com/video/206500912?color=ffffff&title=0&byline=0&portrait=0" width="100%" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-				<audio controls style="width: 100%;"
-				  src="images/project-digitalWhisper/sound/digitalWhisper1.mp3">
-				Your user agent does not support the HTML5 Audio element.
-			</audio><br><br>
+				<script>
+					function resizeDivs() {
+						$('#vid').css("height", $('#vid').width()/1.7777);
 
-				<audio controls style="width: 100%;"
-					src="images/project-digitalWhisper/sound/digitalWhisper3.mp3">
-				Your user agent does not support the HTML5 Audio element.
-				</audio><br><br>
+					}
+					$(resizeDivs);
+					$(window).resize(resizeDivs);
+				</script>
 
-				<img src="images/project-digitalWhisper/Digital Whispers3.jpg" width="47%" alt="Jake Elwes digital artist" />
-				<img src="images/project-digitalWhisper/Digital Whispers.jpg" width="47%" alt="Jake Elwes digital artist" />
-
+				<br></br>
+				<img src="images/project-closedLoop/1_granary_jake_elwes__043.jpg" alt="Jake Elwes digital artist" />
+				<img src="images/project-closedLoop/IMG_0853.jpg" alt="Jake Elwes digital artist" />
+				<img src="images/project-closedLoop/IMG_0852.jpg" alt="Jake Elwes digital artist" />
+				<img src="images/project-closedLoop/IMG_0702.jpg" alt="Jake Elwes digital artist" />
 
 
 			</div><!-- // .desktop-9 -->
@@ -151,8 +150,6 @@ Text to speech library.
 		<nav id="footer"></nav>
 
 		<script src="header.js"></script>
-
-
 	<!-- JS
 	================================================== -->
 	<!--
@@ -165,15 +162,6 @@ Text to speech library.
 	<script src="js/less-1.4.0.min.js"></script>
 	<script src="js/jquery.typeMenu.js"></script>
 	<script src="js/jquery.typeSticky.js"></script>
-
-
-
-
-
-
-
-
-
 
 	<script src="js/jquery.custom.js"></script>
 
