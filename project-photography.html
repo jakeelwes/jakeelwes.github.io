@@ -9,7 +9,7 @@
 	<!-- Basic Page Needs
 	================================================== -->
 	<meta charset="utf-8">
-	<title>Jake Elwes - Auto-Encoded Buddha</title>
+	<title>Jake Elwes - DaDaDa Ta</title>
 	<meta name="description" content=".">
 	<meta name="author" content="Jake Elwes">
 
@@ -59,7 +59,13 @@
   ga('send', 'pageview');
 
 </script>
-
+<script language="javascript" type="text/javascript" src="js/jquery.min.js"></script>
+<link rel="stylesheet" media="screen" href="css/homestyle.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type='text/javascript' src='js/gallery/unitegallery.js'></script>
+  <link rel='stylesheet' href='js/gallery/unite-gallery.css' type='text/css' />
+  <script type='text/javascript' src='js/gallery/ug-theme-tiles.js'></script>
+  <link rel='stylesheet' href='js/gallery/ug-theme-default.css' type='text/css' />
 </head>
 
 <body>
@@ -73,89 +79,57 @@
 	<section id="works" class="page single">
 		<div class="container">
 
-			<div class="desktop-3 push-9 tablet-12 tablet-push-0 nested columns">
+			<div id="gallery" style="display:none;">
+</div>
 
-				<div class="sidebar sticky">
+<script>
+// var dir = "images/";
+// var fileextension = ".png";
+// $.ajax({
+//     url: dir,
+//     success: function (data) {
+//         //List all .png file names in the page
+//         $(data).find("a:contains(" + fileextension + ")").each(function () {
+//             var filename = this.href.replace(window.location.host, "").replace("http://", "");
+//             $("#gallery").append("<img alt='" + filename +"' src='" + dir + filename + "' data-image='" + dir + filename + "' data-description='Image Description'>");
+//         });
+//     }
+// });
 
-					<div class="desktop-3 tablet-12 columns">
+var number = 1;
+var err = false;
 
-						<div class="box-info">
-							<h3 class="border-top">Auto-Encoded Buddha</h3>
-							<p class="project-desc">Video &amp; AI Code (collaboration) - Berlin 2016</p>
-
-							<p>
-								Hommage to Nam June Paik’s TV Buddha
-								Collaboration with Roland Arnoldt
-
-								A Buddha statue watches the computer attempting to draw its own image. An artificial intelligence was trained on 5000 images of Buddha, yet the computer struggles to depict the Buddha’s essence.</p>						</div><!-- // .box-info -->
-
-					</div><!-- // .desktop-3 -->
-
-					<div class="clear"></div>
-
-					<div class="desktop-3 tablet-12 columns">
-
-						<div class="box-info">
-							<h4 class="border-top">Materials</h4>
-							<p>
-								DCGAN (Deep generative convolutional neural network) github.com/Newmu/dcgan_code. <br><br>
-
-								Custom dataset of Buddha images.<br><br>
-
-								Traditional wooden carved Buddha &amp; Digital Monitor.
-							</p>
-						</div><!-- // .box-info -->
-
-					</div><!-- // .desktop-3 -->
-
-					<div class="clear"></div>
-
-				</div><!-- // .sticky -->
-
-			</div><!-- // .desktop-3 -->
+while (number <= 25) {
+	$('#gallery').prepend("<img alt='Jake Elwes' src='old/images/thumb/" + number + ".png' data-image='old/images/full/" + number + ".jpg' data-description='Jake Elwes' />")
+	number++;
+}
 
 
-			<div class="clear show-under-tablet"></div>
+</script>
 
 
-			<div id="budd" class="desktop-9 pull-3 tablet-12 tablet-pull-0 columns">
-
-				  <script>
-
-				  var rand = Math.floor((Math.random() * 17) + 1);
-				  var src = 'images/project-AutoEncodedBuddha/gifs/' + rand + '.gif'
-				  $("#budd").prepend('<img id="gif" src="'+ src +'" width="70%" height="100%"/>')
-				  // $('body').prepend('<img id="gif2" src="'+ src +'" width="100%" height="100%"/>')
-
-
-
-				setInterval(function(){
-				  rand = Math.floor((Math.random() * 17) + 1);
-				  var src = 'images/project-AutoEncodedBuddha/gifs/' + rand + '.gif'
-				  $('#gif').attr('src', src);
-				  // $('#gif').fadeToggle( "slow", "linear" );
-
-				  // setTimeout(function(){
-				  //   rand = Math.floor((Math.random() * 192) + 1);
-				  //   var src = 'gifs/' + rand + '.gif'
-				  //   $('#gif').attr('src', src)
-				  //   $('#gif').fadeToggle( "slow", "linear" )},
-				  // 960)
-
-				}, 1920);
-
-				  </script>
-
-					<img src="images/project-AutoEncodedBuddha/1.JPG" width="70%" alt="Jake Elwes digital artist" />
-					<img src="images/project-AutoEncodedBuddha/2.JPG" alt="Jake Elwes digital artist" />
-					<img src="images/project-AutoEncodedBuddha/3.JPG" width="70%"alt="Jake Elwes digital artist" />
-					<img src="images/project-AutoEncodedBuddha/4.JPG" width="70%"alt="Jake Elwes digital artist" />
-					<img src="images/project-AutoEncodedBuddha/5.JPG" width="70%"alt="Jake Elwes digital artist" />
-					<img src="images/project-AutoEncodedBuddha/6.JPG" alt="Jake Elwes digital artist" />
-
-			</div><!-- // .desktop-0 -->
-
-			<div class="clear"></div>
+<script type="text/javascript">
+$(window).load(function ()
+	{
+	var i = setInterval(function ()
+	{
+			if ($('#gallery').length)
+			{
+					clearInterval(i);
+					jQuery("#gallery").unitegallery({
+						tiles_justified_row_height: 170,
+						tiles_justified_space_between: 6,
+						tile_link_newpage: true,
+						tile_show_link_icon: false,
+						tile_enable_action:	true,
+						tile_overlay_opacity: 0.4,
+						tile_image_effect_type: "bw",
+						tiles_type:"justified" //justified nested or columns
+					});
+			}
+	}, 100);
+});
+</script>
 
 		</div><!-- // .container -->
 	</section><!-- // section -->
