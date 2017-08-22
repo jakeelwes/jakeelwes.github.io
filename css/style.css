@@ -756,7 +756,7 @@ b, strong { font-weight: bold; }
 			font-weight: bold;
 		}
 
-		#works a.permalink:hover h3 { color: #111; }
+		#works a.permalink:hover h3 { color: #b54646; }
 
 	#works .item span.category {
 		color: #666;
