@@ -35,7 +35,8 @@ colors 7e0a5c (deep earth red) 22eedd (original flores blue)
 
 body {
 	color: #111;
-	font-family: "Andale Mono", AndaleMono, monospace;
+	/*font-family: "Andale Mono", AndaleMono, monospace;*/
+	font-family: 'Lato', sans-serif;
 	font-size: 15px;
 	line-height: 28px;
 	letter-spacing: .04em;
@@ -705,6 +706,7 @@ b, strong { font-weight: bold; }
 	/*---------------------------------------------------
 			3.4 About
 	---------------------------------------------------*/
+
 
 	#about h2 { padding-top: 30px; }
 
