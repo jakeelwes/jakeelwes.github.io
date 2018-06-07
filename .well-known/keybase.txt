@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/jakeelwes
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://jakeelwes.com
+  * I am jakeelwes (https://keybase.io/jakeelwes) on keybase.
+  * I have a public key ASDqn_u0zUiMqchCAvgV42Ia8eVWKF2VCFAi-Ej4YHIIewo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120ea9ffbb4cd488ca9c84202f815e3621af1e556285d95085022f848f86072087b0a",
+      "host": "keybase.io",
+      "kid": "0120ea9ffbb4cd488ca9c84202f815e3621af1e556285d95085022f848f86072087b0a",
+      "uid": "eefb495a5540125d7e0540d1b72abc19",
+      "username": "jakeelwes"
+    },
+    "merkle_root": {
+      "ctime": 1528410689,
+      "hash": "69eb5d8baa6ff19527c4500bec90573cc87f6c8c14aa00055583a337c421dcae4ef4b822d144e6ad31901245930ee77e5da6d6a4e2fba1d28b39fc71c1054670",
+      "hash_meta": "9a1f3f33a0f87b5642f73272f55dd6182396438596cac60ace963671d8e4dd68",
+      "seqno": 3043070
+    },
+    "service": {
+      "entropy": "oZVsqDzUlg6H2LF8nZCKludA",
+      "hostname": "jakeelwes.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.0.0"
+  },
+  "ctime": 1528410698,
+  "expire_in": 504576000,
+  "prev": "4b92aaef7c7c773844d4b8a9d7c6a093d1fc418613ec2f364f7ad376a29acffd",
+  "seqno": 7,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg6p/7tM1IjKnIQgL4FeNiGvHlVihdlQhQIvhI+GByCHsKp3BheWxvYWTESpcCB8QgS5Kq73x8dzhE1Lip18agk9H8QYYT7C82T3rTdqKaz/3EIPs+6UqQCt9ssFJ58L75tBwwUvs1KgR4vjs1glWj8CX7AgHCo3NpZ8RA1XHlJnIURHN01KkEEU3KglpJlr5CRfjbOm+w5AGSnH6Q5LltDAxMtRgyUIRSExuhrJPAx42FwyaxtSfJ3VH0B6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIJWkKTNaHa7mkCWY6LBIH8yrWWGd30aw6vVI6Z3D+YBfo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jakeelwes
+
+==================================================================
