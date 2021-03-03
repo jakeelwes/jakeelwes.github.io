@@ -1,9 +1,11 @@
-
 <!DOCTYPE html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+
 <head>
 
 	<!-- Basic Page Needs
@@ -48,18 +50,20 @@
 	<link rel="shortcut icon" href="images/favicon.ico">
 	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	<script>
+		(function (i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date(); a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', 'UA-40831263-1', 'auto');
-  ga('send', 'pageview');
+		ga('create', 'UA-40831263-1', 'auto');
+		ga('send', 'pageview');
 
-</script>
+	</script>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
 
 </head>
@@ -68,7 +72,7 @@
 
 
 	<nav id="navMenu"></nav>
-<script src="header.js"></script>
+	<script src="header.js"></script>
 
 
 	<!-- Work - Single Page (Left Sidebar)
@@ -78,7 +82,7 @@
 
 			<div class="desktop-3 push-6 tablet-12 tablet-push-0 nested columns">
 
-			<!-- <div class="desktop-3 tablet-12 nested columns"> -->
+				<!-- <div class="desktop-3 tablet-12 nested columns"> -->
 
 				<div class="sidebar sticky">
 
@@ -86,26 +90,41 @@
 
 						<div class="box-info">
 							<h3 class="border-top">Zizi & Me</h3>
-							<p class="project-desc">2020, multi media (performance & video installation - in development)
-</p>
-
-<p>
-	‘Zizi & Me’ is a double act between drag queen <a id="show" target="_blank" href="https://www.instagram.com/methedragqueen/">Me</a>, and a deep fake (A.I.) clone of Me. We trained a neural network<small><sub>1</sub></small> on filmed footage. This network learnt to construct a virtual body that can be controlled by feeding it new reference movements. Through drag performance, this artwork aims to use cabaret and musical theatre to challenge narratives surrounding A.I. and society. 	
-
-</p>
-<p>
-	<i>The Zizi Project is a collection of works by Jake Elwes exploring the intersection of Artificial Intelligence (A.I.) and drag performance. Drag challenges gender and explores otherness, while A.I. is often mystified as a tool and contains social bias. Zizi combines them through a deep fake, synthesised drag identity created using machine learning. The project explores what AI can teach us about drag, and what drag can teach us about A.I.</i>
-</p>
-
-
-
-<p><small><small>
-1) Video-to-Video Synthesis (2018)</p></small>
+							<p class="project-desc">2020, multimedia - performance & video installation (ongoing)
+							</p>
 
 							<p>
-									With <a id="show" target="_blank" href="https://efi.ed.ac.uk/">Edinburgh Futures Institute</a> at University of Edinburgh.
+								‘Zizi & Me’ is a double act between drag queen <a id="show" target="_blank"
+									href="https://www.instagram.com/methedragqueen/">Me</a>, and a deep fake (A.I.)
+								clone of Me. We trained a neural network<small>*</small> on filmed footage.
+								This network learnt to construct a virtual body that can be controlled by feeding it new
+								reference movements. Through drag performance, this artwork aims to use cabaret and
+								musical theatre to challenge narratives surrounding A.I. and society.
 
-								</small></p>
+							</p>
+							<p><small><small>
+										*Video-to-Video Synthesis (2018)</p></small></small>
+
+							<p class="border-top">
+								<i>The Zizi Project (2019 - ongoing) is a collection of works by Jake Elwes exploring
+									the intersection of Artificial Intelligence (A.I.) and drag performance. Drag
+									challenges gender and explores otherness, while A.I. is often mystified as a concept
+									and tool, and is complicit in reproducing social bias. Zizi combines these themes
+									through a deepfake, synthesised drag identity created using machine learning. The
+									project explores what AI can teach us about drag, and what drag can teach us about
+									A.I.</i>
+							</p>
+
+
+
+
+
+							<small>
+								<p>
+									With <a id="show" target="_blank" href="https://efi.ed.ac.uk/">Edinburgh Futures
+										Institute</a> at University of Edinburgh.
+
+							</small></p>
 
 						</div><!-- // .box-info -->
 
@@ -122,23 +141,27 @@
 
 			<div class="desktop-6 pull-3 tablet-12 tablet-pull-0 columns">
 
-			<!-- <div class="desktop-6 tablet-12 columns" style="text-transform: uppercase;"> -->
-			<script>
-				function resizeDivs() {
-					$('#vid').css("height", $('#vid').width()/1.7777);
+				<!-- <div class="desktop-6 tablet-12 columns" style="text-transform: uppercase;"> -->
+				<script>
+					function resizeDivs() {
+						$('#vid').css("height", $('#vid').width() / 1.7777);
 
-				}
-				$(resizeDivs);
-				$(window).resize(resizeDivs);
-			</script>
+					}
+					$(resizeDivs);
+					$(window).resize(resizeDivs);
+				</script>
 
-			<iframe id="vid" width="100%" height="360" src="https://www.youtube.com/embed/vtpVr5KVvnk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-			<small>Zizi & Me (preview) - Anything You Can Do (I Can Do Better), Digital Video, 2020<br>
-				<small>Created by Jake Elwes <br>
-				Performance - <a id="show" target="_blank" href="https://www.instagram.com/methedragqueen/">Me</a> <br>
-				Cinematographer - <a id="show" target="_blank" href="https://www.tobyelwes.com/">Toby Elwes</a> </small></small>
+				<iframe id="vid" width="100%" height="360" src="https://www.youtube.com/embed/vtpVr5KVvnk"
+					frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+					webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				<small>Zizi & Me (preview) - Anything You Can Do (I Can Do Better), Digital Video, 2020<br>
+					<small>Created by Jake Elwes <br>
+						Performance - <a id="show" target="_blank"
+							href="https://www.instagram.com/methedragqueen/">Me</a> <br>
+						Cinematographer - <a id="show" target="_blank" href="https://www.tobyelwes.com/">Toby Elwes</a>
+					</small></small>
 
-			<br>
+				<br>
 			</div><!-- // .desktop-9 -->
 
 			<div class="clear"></div>
@@ -149,9 +172,9 @@
 
 
 
-		<nav id="footer"></nav>
+	<nav id="footer"></nav>
 
-		<script src="header.js"></script>
+	<script src="header.js"></script>
 	<!-- JS
 	================================================== -->
 	<!--
@@ -168,7 +191,8 @@
 	<script src="js/jquery.custom.js"></script>
 
 
-<!-- End Document
+	<!-- End Document
 ================================================== -->
 </body>
+
 </html>
