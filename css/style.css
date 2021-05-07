@@ -37,6 +37,10 @@ iframe.third {
 	width: 32%;
 	height: auto;
 }
+iframe.half {
+	width: 40%;
+	height: auto;
+}
 
 
 /*--------------------------------------------------------------------------
