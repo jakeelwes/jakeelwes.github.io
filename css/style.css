@@ -41,6 +41,13 @@ iframe.half {
 	width: 40%;
 	height: auto;
 }
+iframe.news {
+	width: 60%;
+	display:block;
+	align: center;
+	margin: 0 auto;
+	/* height: auto;	 */
+}
 
 
 /*--------------------------------------------------------------------------
