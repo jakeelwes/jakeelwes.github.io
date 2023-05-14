@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+@font-face {
+  font-family: "market_decoregular";
+  src: url("font/market_deco-webfont.woff2") format("woff2"),
+    url("font/market_deco-webfont.woff") format("woff"),
+    url("font/market_deco.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+    background-color: #000;
+    /* background: linear-gradient(0deg,#1c0008 0%, #2e010f 75%, #1c0008 100%) fixed; */
+    color: #ee9c92;
+    font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
+    line-height: 32px;
+    font-size: 21px;
+    margin: 0px;
+  }
+
+h2 {
+  font-family: "market_decoregular", sans-serif;
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.about {
+  max-width: 600px;
+  margin: auto;
+  display: block;
+  object-fit: fill;
+}
+
+.secondary-header {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;    
+  margin-bottom: 0;    
+  width: 20rem;
+}
+
+img {
+  width: 70%;
+  margin: 1rem 0 1rem 0;
+}
+
+.banner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;    
+  margin-top: 0;
+  width: 60%;
+
+}
+
+.first {
+  margin-top: 0;
+}
+
+hr {
+  border-color: #ee9c92;
+  margin: 4rem;
+}
+
+hr .first {
+  margin-top: 0;
+}
+
+.footnote {
+  font-size: 17px;
+}
+
+sup {
+  font-size: 12px;
+}
