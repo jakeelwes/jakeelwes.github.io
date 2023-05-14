@@ -18,20 +18,20 @@
 	<header class="w-full bg-cover bg-no-repeat bg-center bg-top h-96"
 		style="background-image: url('img/banner-tall.jpg')">
 		<div class="w-full h-96 bg-gradient-to-t from-black to-60%">
-			<div class="text-[5rem] text-center w-full h-full">
-				<a class="text-white no-underline hover:no-underline visited:text-white mt-32 fa-regular fa-circle-play" href="https://www.youtube.com/watch?v=3c5-ABUkI_M"></a>
-			</div>
+			<!-- <div class="text-[5rem] text-center w-full h-full">
+				<a class="text-white no-underline hover:no-underline visited:text-white mt-32 fa-regular fa-circle-play"
+					href="https://www.youtube.com/watch?v=3c5-ABUkI_M"></a>
+			</div> -->
 		</div>
 	</header>
 	<main class="w-full md:container md:mx-auto">
 		<div class="px-8">
 			<h1 class="text-3xl -mt-24 text-zinc-50 font-title">The Zizi Show</h1>
 			<p class="italic">A Deepfake Drag Cabaret</p>
-			<!-- <iframe class="w-full aspect-video"
-			src="https://www.youtube.com/embed/3c5-ABUkI_M"
-			title="Making of The Zizi Show" frameborder="0"
-			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-			allowfullscreen></iframe> -->
+			<iframe class="w-full aspect-video my-8" src="https://www.youtube.com/embed/3c5-ABUkI_M"
+				title="Making of The Zizi Show" frameborder="0"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+				allowfullscreen></iframe>
 			<!-- <ul>
 			<li>
 				Videos
@@ -55,8 +55,7 @@
 				The Zizi Project: Other Works
 			</li>
 		</ul> -->
-
-			<div class="p-4 italic">
+			<div class="p-4 italic space-y-4 font-serif">
 				<p>
 					"My latest work aims to bring together two things I love, artificial
 					intelligence, and the world of Drag performance. In an entertaining
@@ -80,10 +79,11 @@
 					drag –
 					and what drag can teach us about AI.”
 				</p>
+				<p class="text-right text-2xl font-serif">- Jake Elwes</p>
 			</div>
 		</div>
 
-		<div class="w-full bg-zinc-700 p-8 text-center">
+		<div class="w-full bg-zinc-700 p-8 text-center md:rounded-lg">
 			<h2 class="font-bold text-xl mb-8">Team</h2>
 			@Jake Todo: add links, update descriptions
 			<ul>
@@ -111,14 +111,14 @@
 			</ul>
 		</div>
 
-		<div class="w-full bg-zinc-100 p-6 text-center text-red-950">
-			<h2 class="font-bold text-xl mb-2">Cast</h2>
+		<div class="w-full bg-zinc-100 p-8 text-center text-red-950 md:rounded-lg md:my-6">
+			<h2 class="font-bold text-xl">Cast</h2>
 			<div id="cast-image-grid" class="container mx-auto grid grid-cols-2 gap-4 md:grid-cols-3">
-				<div class="flex flex-col items-center">
+				<a class="flex flex-col items-center" href="https://instagram.com" target="_blank">
 					<!-- <i class="self-end fa-brands fa-instagram"></i> -->
 					<img src="img/cast/bolly.jpg" alt="Bolly Illusion Cast Photo" class="rounded-lg">
 					<p class="underline decoration-2 decoration-red-700 underline-offset-2">Bolly Illusion</p>
-				</div>
+				</a>
 				<div class="flex flex-col items-center">
 					<!-- <i class="right-1 top-1 fa-brands fa-instagram"></i> -->
 					<img src="img/cast/cara.jpg" alt="Cara Melle Cast Photo" class="rounded-lg">
@@ -147,9 +147,8 @@
 			</div>
 		</div>
 
-		<div class="w-full p-8 space-y-6">
-			<h2 class="text-xl mb-2 font-mono text-center">Technical</h2>
-
+		<div class="w-full px-8 mt-16 space-y-6">
+			<h2 class="text-2xl mb-2 font-mono text-center">Technical</h2>
 			<p>
 				Machine learning (teaching computers to learn from data), more specifically deep-fake technology, has
 				been
@@ -218,7 +217,7 @@
 				process exposing the workings of the black box which is artificial intelligence.
 			</p>
 
-			<div class="space-y-4 text-xs">
+			<div class="space-y-4 text-xs footnotes">
 				<h3 class="italic">Footnotes</h3>
 				<p id="fn1">1. For more information see
 					<a href="https://deepai.org/machine-learning-glossary-and-terms/neural-network">this article from
