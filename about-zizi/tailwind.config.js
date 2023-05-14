@@ -2,10 +2,12 @@
 module.exports = {
   content: ["index.html"],
   theme: {
-    fontFamily: {
-      body: ["Inter var", "sans-serif"]
+    extend: {
+      fontFamily: {
+        sans: ["'Inter'", "sans-serif"],
+        title: ["ui-serif", "Georgia", "Cambria", '"Times New Roman"', "Times", "serif"],
+      }
     },
-    extend: {},
   },
   plugins: [],
 }
