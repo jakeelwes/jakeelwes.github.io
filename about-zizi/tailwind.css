@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-sup, .footnotes a {
-    @apply text-fuchsia-500 hover:underline visited:text-fuchsia-700
+sup, .footnotes a, .team a {
+    @apply text-rose-300 hover:underline visited:text-rose-300
  }
  
