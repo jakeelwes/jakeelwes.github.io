@@ -759,6 +759,9 @@ ul#nav>li ul ul {
 	padding-top: 30px;
 }
 
+html { scroll-behavior: smooth; } 
+
+
 #about .services h3 {
 	font-size: 32px;
 	line-height: 42px;
@@ -782,6 +785,20 @@ ul#nav>li ul ul {
 	margin-top: 20px;
 }
 
+#about .anchor {
+	text-align: center;
+	color: #992266;
+}
+
+#about ul {
+	text-align: center;
+	list-style-type: none;
+}
+
+#about .aboutimg {
+	width: 49%;
+}
+
 @media screen and (max-width: 767px) {
 	#about .services h4 {
 		margin-top: 40px;
@@ -789,6 +806,9 @@ ul#nav>li ul ul {
 	#about .services p {
 		font-size: 12px;
 		line-height: 24px;
+	}
+	#about .aboutimg {
+		width: 100%;
 	}
 }
 
