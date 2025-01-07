@@ -132,7 +132,6 @@
 
 
 
-			<div class="clear hide-under-tablet"></div>
 		</div><!-- // .container -->
 	</section><!-- // section#header -->
 
@@ -142,6 +141,18 @@
 	<section id="works" class="">
 		<div class="container">
 			
+			<a href="https://artinthecageofdigitalreproduction.org/" target="_blank" class="permalink">
+				<div class="desktop-4 tablet-6 columns">
+					<div class="item">
+						<img src="images/project-prpuppets.jpg" alt="Jake Elwes digital artist" />
+
+						<h3>Art in the Cage of Digital Reproduction</h3>
+
+						<span style="display:block" class="category">action and collection of writings, 2024</span>
+					</div>
+				</div>
+			</a>
+
 			<a href="project-doomscroll.html" class="permalink">
 				<div class="desktop-4 tablet-6 columns">
 					<div class="item">
@@ -178,8 +189,6 @@
 				</div>
 			</a>
 
-			<div class="clear hide-under-tablet"></div>
-
 			<a href="project-zizimotion.html" class="permalink">
 				<div class="desktop-4 tablet-6 columns">
 					<div class="item">
@@ -215,7 +224,6 @@
 				</div>
 			</a>
 
-			<div class="clear hide-under-tablet"></div>
 
 			<a href="project-zizi-2019.html" class="permalink">
 				<div class="desktop-4 tablet-6 columns">
@@ -250,7 +258,6 @@
 				</div>
 			</a>
 
-			<div class="clear hide-under-tablet"></div>
 
 			<a href="project-closedLoop.html" class="permalink">
 				<div class="desktop-4 tablet-6 columns">
@@ -285,7 +292,6 @@
 				</div><!-- // .desktop-4 -->
 			</a>
 
-			<div class="clear hide-under-tablet"></div>
 
 			<a href="project-digitalWhisper.html" class="permalink">
 				<div class="desktop-4 tablet-6 columns">
@@ -320,7 +326,6 @@
 				</div><!-- // .desktop-4 -->
 			</a>
 
-			<div class="clear hide-under-tablet"></div>
 
 			<a href="project-musicaltaxonomy.html" class="permalink">
 				<div class="desktop-4 tablet-6 columns">
@@ -354,8 +359,6 @@
 					</div><!-- // .item -->
 				</div><!-- // .desktop-4 -->
 			</a>
-
-			<div class="clear hide-under-tablet"></div>
 
 		
 			<a href="project-iPhoneTouch.html" class="permalink">
@@ -422,7 +425,30 @@
 
 
 
-
+	<script>
+		// Wait for DOM to be fully loaded
+		document.addEventListener('DOMContentLoaded', function() {
+			// Get the container that holds all project items
+			const container = document.querySelector('#works .container');
+			
+			// Get all direct permalink links (project items)
+			const items = container.querySelectorAll(':scope > a.permalink');
+			
+			// Loop through items, starting from index 2 (3rd item)
+			for (let i = 2; i < items.length; i += 3) {
+				// Create clearfix div
+				const clearfix = document.createElement('div');
+				clearfix.className = 'clear hide-under-tablet';
+				
+				// Insert after every third item
+				if (items[i].nextSibling) {
+					container.insertBefore(clearfix, items[i].nextSibling);
+				} else {
+					container.appendChild(clearfix);
+				}
+			}
+		});
+		</script>
 
 
 
