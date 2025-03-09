@@ -796,7 +796,7 @@ html { scroll-behavior: smooth; }
 }
 
 #about .aboutimg {
-	width: 49%;
+	width: 24%;
 }
 
 @media screen and (max-width: 767px) {
@@ -808,7 +808,7 @@ html { scroll-behavior: smooth; }
 		line-height: 24px;
 	}
 	#about .aboutimg {
-		width: 100%;
+		width: 49%;
 	}
 }
 
