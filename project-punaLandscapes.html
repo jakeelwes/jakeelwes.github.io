@@ -80,6 +80,38 @@
 			margin-bottom: 2%;
 		}
 		
+		/* Mobile-only first image - hidden by default */
+		.first-image-mobile {
+			display: none;
+		}
+		
+		/* Mobile reordering */
+		@media (max-width: 767px) {
+			#works .container {
+				display: flex;
+				flex-direction: column;
+			}
+			
+			.first-image-mobile {
+				display: block;
+				order: 1;
+				margin-bottom: 20px;
+			}
+			
+			.desktop-4.push-8 {
+				order: 2;
+			}
+			
+			.desktop-8.pull-4 {
+				order: 3;
+			}
+			
+			/* Hide the original first image on mobile */
+			.desktop-8.pull-4 .photo-container:first-child {
+				display: none;
+			}
+		}
+		
 		@media (max-width: 1024px) {
 			.portrait-grid-thirds .photo-container {
 				flex: 0 1 48%;
@@ -140,6 +172,11 @@
 	================================================== -->
 	<section id="works" class="page single">
 		<div class="container">
+
+			<!-- Mobile-only first image -->
+			<div class="first-image-mobile photo-container">
+				<img src="images/project-punaLandscapes/puna - 1.jpeg" alt="Puna Landscapes - Geometries and Cartographies" />
+			</div>
 
 			<div class="desktop-4 push-8 tablet-12 tablet-push-0 nested columns">
 
@@ -327,4 +364,4 @@
 <!-- End Document
 ================================================== -->
 </body>
-</html>
+</html>	
